@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, Alert, StyleSheet } from 'reac
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigation } from '@react-navigation/native';
 import { colors } from '../theme';
-import { auth } from '../firebaseConfig';
+import { auth } from '../firebase';
 
 export default function Login() {
   const [email, setEmail] = useState('');
